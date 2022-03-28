@@ -1,0 +1,50 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	background: url(../img/trabajo.jpg);
+	background-size: 100%;
+}
+
+.letra{
+	font: oblique bold 120% cursive;
+ font-size:50px;
+}
+.cajas{
+	font: oblique bold 120% cursive;
+font-size: 14px;
+color: #000000;
+background: #f7f7f800;
+margin: 0 0 25px;
+overflow: hidden;
+padding: 20px;
+ border-color:#00000045;
+}
+
+.btn{
+	   background-image:url(../img/calcu.png);
+        background-repeat:no-repeat;
+        height:60px;
+        width:70px;
+        background-size: 50px 50px;
+        background-position:center;
+		background-color: rgba(255,255,255,.15);
+		-webkit-border-radius: 35%;
+		-webkit-box-shadow: 0px 0px 0px 30px rgb(255 255 255 / 0%);
+		-webkit-transition:box-shadow .4s;
+}
+
+.btn2{
+	   background-image:url(../img/atras.png);
+        background-repeat:no-repeat;
+        height:60px;
+        width:70px;
+        background-size: 50px 50px;
+        background-position:center;
+		background-color: rgba(255,255,255,.15);
+		-webkit-border-radius: 35%;
+		-webkit-box-shadow: 0px 0px 0px 30px rgb(255 255 255 / 0%);
+		-webkit-transition:box-shadow .4s;
+}
